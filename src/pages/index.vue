@@ -8,8 +8,6 @@
 
     import { Component, Prop, Vue } from "nuxt-property-decorator";
 
-    import ChatWrap from '../components/Chat/ChatWrap.vue';
-    import StreamWrap from '../components/Stream/StreamWrap.vue';
     import { State, Action, Getter } from 'vuex-class';
     import { RoomsState } from '../store/rooms/types';
     import IRoom from "../../interfaces/IRoom";
